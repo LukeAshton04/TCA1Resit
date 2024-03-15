@@ -67,8 +67,25 @@ main {
     margin-right: 0px;
     column-gap: 2em;
     row-gap: 1em;
+    
 }
 
 a {
     text-decoration: none;
+}
+
+button {
+    background-color: green;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 22px;
+    padding: 10px 18px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+button:hover {
+    opacity: 60%;
+    cursor: pointer;
 }
