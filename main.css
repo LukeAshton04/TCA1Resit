@@ -52,3 +52,18 @@ body {
         "main main aside"
         "footer footer footer";
 }
+
+div{
+    border: 1px solid black;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1ft 1fr;
+    grid-template-rows: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    column-gap: 2em;
+    row-gap: 1em;
+}
