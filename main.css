@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color: #0000ff;
+    background-color: black;
     color: white;
     padding: 2em;
     grid-area: header;
@@ -20,6 +20,8 @@ nav ul {
     display: flex;
     justify-content: space-around;
     padding: 1em;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 main {
@@ -27,13 +29,12 @@ main {
     color: white;
     grid-area: main;
     padding: 3em;
+    margin: auto;
+    background-image: url(outer-space-landscape-free-vector.jpg);
+    background-size: cover;
+    background-position: top;
 }
 
-aside {
-    background-color: lightgreen;
-    grid-area: aside;
-    padding: 3em;
-}
 
 footer {
     background-color: darkgreen;
@@ -47,10 +48,10 @@ body {
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: auto;
     grid-template-areas:
-        "header header header"
-        "nav nav nav"
-        "main main aside"
-        "footer footer footer";
+        "header"
+        "nav"
+        "main"
+        "footer";
 }
 
 div{
@@ -62,8 +63,12 @@ main {
     display: grid;
     grid-template-columns: 1ft 1fr;
     grid-template-rows: auto;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
     column-gap: 2em;
     row-gap: 1em;
+}
+
+a {
+    text-decoration: none;
 }
