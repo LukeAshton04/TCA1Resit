@@ -30,7 +30,6 @@ main {
     grid-area: main;
     padding: 3em;
     margin: auto;
-    background-image: url(outer-space-landscape-free-vector.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -61,13 +60,12 @@ div{
 
 main {
     display: grid;
-    grid-template-columns: 1ft 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     margin-left: 0px;
     margin-right: 0px;
     column-gap: 2em;
     row-gap: 1em;
-    
 }
 
 a {
