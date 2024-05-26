@@ -1,34 +1,36 @@
+/* Reset default margins and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Style the header with a black background */
 header {
     background-color: black;
     color: white;
     padding: 2em;
-    grid-area: header;
+    grid-area: header; /* Assign the header to a grid area for layout */
 }
+
 
 main {
     background-color: #00008b;
     color: white;
-    grid-area: main;
+    grid-area: main; 
     padding: 3em;
     margin: auto;
-    background-size: cover;
-    background-position: top;
+    background-size: cover; 
+    background-position: top; 
 }
 
-
+/* Style the footer with a dark green background */
 footer {
     background-color: darkgreen;
     color: white;
-    grid-area: footer;
+    grid-area: footer; 
     padding: 1em;
 }
-
 body {
     display: grid;
     grid-template-columns: 20% 60% 20%;
@@ -88,4 +90,14 @@ nav ul {
     padding: 1em;
     text-decoration: none;
     list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Shadows Into Light", cursive, 'Times New Roman', Times, serif;
 }
