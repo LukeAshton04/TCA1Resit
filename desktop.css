@@ -19,3 +19,32 @@ body {
     
     
 }
+
+main:hover {
+    background-color: red;
+    color: white;
+    padding: 3em;
+    margin: auto;
+    background-size: cover;
+    background-position: top;
+}
+
+main {
+    transition: background-color 0.5s ease-in;
+}
+
+
+nav {
+    background-color: rgb(255, 255, 0);
+    grid-area: nav;
+}
+
+nav ul {
+    background-color: #ffff00;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    text-decoration: none;
+    list-style-type: none;
+}
+
